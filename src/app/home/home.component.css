@@ -1,0 +1,91 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+}
+
+summary {
+    border: 1px solid #E0E0E0;
+    border-radius: 15px;
+    padding: 0.75em 1em;
+    cursor: pointer;
+    position: relative;
+    padding-left: 3.25rem;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    text-align: center;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+details div {
+    border-left: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+    border-top: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
+    border-radius: 12px;
+    padding: 1.5em;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+user agent stylesheet img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.text-center {
+    text-align: center !important;
+}
+
+
+
+.number_class {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #11679a;
+}
+
+
+
+style attribute {
+    background-color: #323232;
+    color: white;
+}

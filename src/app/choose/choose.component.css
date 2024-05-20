@@ -1,0 +1,39 @@
+.whychoseus .icon-round {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    vertical-align: middle;
+    padding: 5px;
+    border: none;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #11679a;
+    margin: auto auto 30px;
+}
+
+.whychoseus {
+    vertical-align: middle;
+    margin: auto auto 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    padding: 25px 34px;
+    border-radius: 30px;
+    transition: all ease .5s;
+}
+.fa {
+    color: #fff;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    font-size: 40px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

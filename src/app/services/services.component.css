@@ -1,0 +1,32 @@
+.height {
+    padding: 50px;
+}
+.number_class {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #11679a;
+}
+.service_box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 15px 38px #0000001a;
+    background: #fff;
+    padding: 25px 34px;
+    border-radius: 30px;
+    transition: all ease .5s;
+    margin-bottom: 30px;
+}
+
+.service_box .icon {
+    background: radial-gradient(circle farthest-corner at 100% 150%, #11679A 0%, #fff 50%);
+    padding: 10px;
+    border: 1px solid #828282;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.service_box .icon img {
+    max-width: 35px;
+}

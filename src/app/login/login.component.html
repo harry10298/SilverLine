@@ -1,0 +1,61 @@
+<app-root ng-version="15.2.9"><!----><router-outlet _ngcontent-hro-c29=""></router-outlet><app-login
+        >
+        <div  class="animated bounceInDown">
+            <div  class="container p-5">
+                <div >
+                    <form  ngnoform="" method="post" class="box"
+                        action="https://iinvestoffice.com//chklogin.aspx">
+                        <div  class="Box_class p-4 mx-auto">
+                            <div  class="row">
+                                <div  class="col-12">
+                                    <h1  class="login-main-text">Silverline Wealth Portfolio Login
+                                    </h1>
+                                </div>
+                            </div>
+                            <div  class="row g-3"><input  name="DistributorCode"
+                                    type="hidden" id="DistributorCode" runat="server" value="D0270"><input
+                                     name="drp_Logintype" type="hidden" id="drp_Logintype"
+                                    runat="server" value="C">
+                                <div  class="row g-2 col-12">
+                                    <div  class="text-start col-12"><label 
+                                            for="" class="form-label pb-0">User Id</label></div>
+                                    <div  class="col-12"><input  type="text"
+                                            id="txtdpid" name="txtdpid" autofocus="autofocus" placeholder="User Id"
+                                            required="" autocomplete="off" class="form-control w-100 input-boxes"></div>
+                                </div>
+                                <div  class="row g-2 col-12">
+                                    <div  class="text-start mb-0 col-12"><label 
+                                            for="" class="form-label pb-0">Password</label></div>
+                                    <div  class="col-12"><input  type="password"
+                                            id="txtPassword" name="txtPassword" placeholder="Password" required=""
+                                            autocomplete="off" class="form-control w-100 input-boxes"></div>
+                                </div>
+                                <div  class="row col-12 g-2">
+                                    <div  class="col-12"><button  type="submit"
+                                            class="btn login_btn">Log in</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div  class="back-image-box"></div>
+        </div>
+    </app-login><!----><!----></app-root>
+<script>
+    window.onscroll = () => {
+        toggleTopButton();
+    }
+    function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function toggleTopButton() {
+        if (document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20) {
+            document.getElementById('back-to-up').classList.remove('d-none');
+        } else {
+            document.getElementById('back-to-up').classList.add('d-none');
+        }
+    }
+</script>

@@ -1,0 +1,22 @@
+.navbar-brand img {
+    width: 30%;
+    height: 20%;
+    object-fit: fill;
+}
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: center!important;
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+}
+
+
